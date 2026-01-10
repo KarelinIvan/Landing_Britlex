@@ -3,6 +3,7 @@
     --color-grey: rgba(143, 149, 165, 1);
     --color-dark-grey-blue: rgba(38, 50, 56, 1);
     --color-button: rgba(255, 255, 255, 1);
+    --color-bgfon: rgba(245, 245, 245, 1);
 
     --font-family-poppins: "Poppins", sans-serif;
 }
@@ -74,7 +75,7 @@ li {
 }
 /* Learning */
 .learning {
-    margin-bottom: 10px;
+    margin-bottom: 45px;
 }
 .learning-flex {
     display: flex;
@@ -122,4 +123,64 @@ li {
     max-width: 661px;
     width: 100%;
 }
-
+/* Skills */
+.skills {
+    text-align: center;
+}
+.skills__title {
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 92px;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    gap: 18px;
+}
+.skills__item {
+    border-radius: 10px;
+    background-color: var(--color-bgfon);
+    padding: 0px 45px;
+    text-align: left;
+}
+.skills__item--speaking {
+    grid-row: span 2;
+}
+.skills__img {
+    width: 100%;
+}
+.skills__item-title {
+    color: var(--color-dark-grey-blue);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.skills__item-paragraph  {
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.btn--skills {
+    max-width: 230px;
+    width: 100%;
+    padding: 15px 50px;
+    color: var(--color-button);
+    background-color: var(--color-black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.skills__item--writing {
+    grid-column: span 1;
+}
+.skills__item--reading {
+    grid-column: span 1;
+}
+.skills__item--listening {
+    grid-column: span 2;
+    display: flex
+}
