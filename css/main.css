@@ -135,6 +135,7 @@ li {
 /* Skills */
 .skills {
     text-align: center;
+    margin-bottom: 20px;
 }
 .skills__title {
     color: var(--color-black);
