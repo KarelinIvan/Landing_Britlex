@@ -257,7 +257,7 @@ li {
 }
 .about-content__items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .about-item {
     text-align: center;
