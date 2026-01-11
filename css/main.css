@@ -276,7 +276,7 @@ li {
 }
 /* Pricing */
 .pricing {
-    margin-bottom: 10px;
+    margin-bottom: 265px;
 }
 .pricing-title {
     text-align: center;
@@ -309,7 +309,7 @@ li {
     font-size: 20px;
     line-height: 30px;
     height: 90px;
-    overflow: scroll;
+    overflow: auto;
     margin-bottom: 28px;
 }
 .btn--buy {
@@ -332,3 +332,53 @@ li {
     line-height: 45px;
 }
 /* Contact */
+.contact {
+    margin-bottom: 10px;
+}
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-img {
+    max-width: 477px;
+    width: 100%;
+}
+.contact-content {
+    max-width: 770px;
+}
+.contact-content__title {
+    padding-top: 30px;
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+.contact-content__paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+.form--input {
+    width: 450px;
+    height: 80px;
+    border: 1px solid rgba(143, 149, 165, 1);
+    border-radius: 10px;
+    font-family: var(--font-family-poppins);
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 33px;
+    margin-right: 10px;
+}
+.btn--form  {
+    width: 264px;
+    height: 80px;
+    border-radius: 10px;
+    background: rgba(38, 50, 56, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
