@@ -333,11 +333,16 @@ button:hover {
 }
 /* Contact */
 .contact {
-    margin-bottom: 10px;
 }
 .contact-flex {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 155px;
+}
+.contact__line {
+    content: "";
+    height: 1px;
+    background: rgba(196, 196, 196, 1);
 }
 .contact-img {
     max-width: 477px;
@@ -381,4 +386,29 @@ button:hover {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+}
+/* Footer */
+.footer {
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info {
+    display: flex;
+    gap: 40px;
+}
+.footer__item {
+    padding-top: 25px;
+    color: rgba(143, 149, 165, 1);
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer__item:nth-child(1) {
+    list-style: none;
+}
+.footer__link {
+    color: var(--color-grey);
 }
