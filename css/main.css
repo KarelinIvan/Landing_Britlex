@@ -1,0 +1,414 @@
+:root {
+    --color-black: rgba(0, 0, 0, 1);
+    --color-grey: rgba(143, 149, 165, 1);
+    --color-dark-grey-blue: rgba(38, 50, 56, 1);
+    --color-button: rgba(255, 255, 255, 1);
+    --color-bgfon: rgba(245, 245, 245, 1);
+
+    --font-family-poppins: "Poppins", sans-serif;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    color: var(--color-grey);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 2px 1px rgba(100, 100, 100, 0.5);
+}
+img {
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p,
+ul, ol, li,
+button, input {
+	padding: 0;
+	margin: 0;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0 0 15px 5px rgba(100, 100, 100, 0.5);
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 130px;
+    margin: 0 auto;
+}
+/* Header */
+.header {
+    padding: 57px 0;
+    margin-bottom: 42px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu {
+    padding-top: 15px;
+    display: flex;
+    gap: 40px;
+}
+.header-menu li {
+    list-style: none;
+}
+.header__menu-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-dark-grey-blue);
+}
+.btn {
+    border-radius: 5px;
+    font-family: var(--font-family-poppins);
+}
+.btn--header {
+    max-width: 220px;
+    width: 100%;
+    border: 2px solid rgba(38, 50, 56, 1);
+    padding: 15px 55px;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--color-black);
+}
+/* Learning */
+.learning {
+    margin-bottom: 45px;
+}
+.learning-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.learning-content {
+    max-width: 632px;
+    width: 100%;
+}
+.learning-title-flex {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+.learning-content__title {
+    max-width: 386px;
+    width: 100%;
+    color: var(--color-black);
+    font-family: var(--font-family-poppins);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.learning-content__img  {
+    padding-top: 65px;
+}
+.learning-content__paragraph {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 60px;
+}
+.btn--large {
+    max-width: 438px;
+    width: 100%;
+    padding: 30px 115px;
+    color: var(--color-button);
+    background-color: var(--color-black);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    border-radius: 15px;
+}
+.learning-img {
+    max-width: 661px;
+    width: 100%;
+}
+/* Skills */
+.skills {
+    text-align: center;
+    margin-bottom: 320px;
+}
+.skills__title {
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 92px;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    gap: 18px;
+}
+.skills__item {
+    border-radius: 10px;
+    background-color: var(--color-bgfon);
+    padding: 0px 45px 44px 45px;
+    text-align: left;
+}
+.skills__item--speaking {
+    grid-row: span 2;
+}
+.skills__img {
+    width: 100%;
+} 
+.skills__item--speaking {
+    max-height: 894px;
+}
+.skills__item--writing {
+    max-height: 531px;
+}
+.skills__item--reading {
+    max-height: 531px;
+}
+.skills__item--listening {
+    max-height: 343px;
+}
+.skills__item--writing .skills__img  {
+    max-width: 293px;
+    padding-left: 40px;
+}
+.skills__item-title {
+    color: var(--color-dark-grey-blue);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.skills__item-paragraph  {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+.btn--skills {
+    max-width: 218px;
+    max-height: 60px;
+    width: 100%;
+    padding: 15px 50px;
+    color: var(--color-button);
+    background-color: var(--color-black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.skills__item--writing {
+    grid-column: span 1;
+}
+.skills__item--reading {
+    grid-column: span 1;
+}
+/* Назначаем области */
+.skills__item--listening > .skills__img {
+    grid-area: img;
+}
+.skills__item--listening > .skills__item-title {
+    grid-area: title;
+}
+.skills__item--listening > .skills__item-paragraph {
+    grid-area: paragraph;
+}
+.skills__item--listening > .btn--skills {
+    grid-area: btn;
+}
+.skills__item--listening {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "title img"
+    "paragraph img"
+    "btn img";
+}
+/* About */
+.about {
+    margin-bottom: 150px;
+}
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.about-content {
+    max-width: 635px;
+    width: 100%;
+}
+.about-content__title {
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 22px;
+}
+.about-content__paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.about-content__items {
+    display: flex;
+    justify-content: space-between;
+}
+.about-item {
+    text-align: center;
+}
+.about-item__value {
+    color: rgba(42, 50, 70, 1);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.about-item__desc {
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-img {
+    max-width: 500px;
+    width: 100%;
+}
+/* Pricing */
+.pricing {
+    margin-bottom: 265px;
+}
+.pricing-title {
+    text-align: center;
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 60px;
+}
+.pricing-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-item {
+    max-width: 420px;
+    width: 100%;
+}
+.pricing-item__img {
+    height: 310px;
+    margin-bottom: 30px;
+}
+.pricing-item__title {
+    color: var(--color-dark-grey-blue);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.pricing-item__paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    height: 90px;
+    overflow: auto;
+    margin-bottom: 28px;
+}
+.btn--buy {
+    width: 240px;
+    height: 45px;
+    border-style: none;
+    color: rgba(84, 98, 105, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.price {
+    color: rgba(38, 50, 56, 1);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+}
+/* Contact */
+.contact {
+}
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 155px;
+}
+.contact__line {
+    content: "";
+    height: 1px;
+    background: rgba(196, 196, 196, 1);
+}
+.contact-img {
+    max-width: 477px;
+    width: 100%;
+}
+.contact-content {
+    max-width: 770px;
+}
+.contact-content__title {
+    padding-top: 30px;
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+.contact-content__paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+.form--input {
+    width: 450px;
+    height: 80px;
+    border: 1px solid rgba(143, 149, 165, 1);
+    border-radius: 10px;
+    font-family: var(--font-family-poppins);
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 33px;
+    margin-right: 10px;
+}
+.btn--form  {
+    width: 264px;
+    height: 80px;
+    border-radius: 10px;
+    background: rgba(38, 50, 56, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* Footer */
+.footer {
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info {
+    display: flex;
+    gap: 40px;
+}
+.footer__item {
+    padding-top: 25px;
+    color: rgba(143, 149, 165, 1);
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer__item:nth-child(1) {
+    list-style: none;
+}
+.footer__link {
+    color: var(--color-grey);
+}
