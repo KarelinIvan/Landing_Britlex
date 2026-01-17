@@ -18,6 +18,10 @@
         height: 50px;
         font-size: 1.1rem;
     }
+    /* Learning */
+    .learning {
+        margin-bottom: 37px;
+    }
     .learning-title-flex {
         gap: 15px;
     }
@@ -39,4 +43,22 @@
         border-radius: 5px;
     }
     /* Skills */
+    .skills__title {
+        font-size: 2.25rem;
+        margin-bottom: 60px;
+    }
+    .skills__item {
+        padding: 0px 30px 30px 30px;
+    }
+    .skills__item-title {
+        font-size: 1.4rem;
+    }
+    .skills__item-paragraph {
+        font-size: 0.9rem;
+    }
+    .btn--skills {
+        width: 196px;
+        font-size: 1.25rem;
+    }
+
 }
