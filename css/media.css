@@ -1,0 +1,165 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        padding-left: calc(50% - 930px/2);
+        padding-right: calc(50% - 930px/2);
+    }
+    /* Header */
+    .header {
+        padding: 30px 0;
+    }
+    .header__logo-img {
+        width: 89px;
+    }
+    .header__menu-link {
+        font-size: 1rem;
+    }
+    .btn--header {
+        width: 160px;
+        height: 50px;
+        font-size: 1.1rem;
+    }
+    /* Learning */
+    .learning {
+        margin-bottom: 37px;
+    }
+    .learning-title-flex {
+        gap: 15px;
+    }
+    .learning-content__title {
+        width: 290px;
+        font-size: 3rem;
+    }
+    .learning-content__img {
+        width: 78px;
+    }
+    .learning-content__paragraph {
+        font-size: 1.25rem;
+        margin-bottom: 30px;
+    }
+    .btn--large {
+        width: 292px;
+        padding: 22px 0;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+    /* Skills */
+    .skills {
+        margin-bottom: 55px;
+    }
+    .skills__title {
+        font-size: 2.25rem;
+        margin-bottom: 60px;
+    }
+    .skills__item {
+        padding: 0px 30px 30px 30px;
+    }
+    .skills__item-title {
+        font-size: 1.4rem;
+    }
+    .skills__item-paragraph {
+        font-size: 0.9rem;
+    }
+    .btn--skills {
+        width: 196px;
+        font-size: 1.25rem;
+    }
+    /* About */
+    .about {
+        margin-bottom: 115px;
+    }
+    .about-content {
+        width: 545px;
+    }
+    .about-content__title {
+        font-size: 2.25rem;
+    }
+    .about-content__paragraph {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    .about-item__value {
+        font-size: 1.9rem;
+    }
+    .about-item__desc {
+        font-size: 1rem;
+    }
+    .about-img {
+        width: 345px;
+    }
+    /* Pricing */
+    .pricing {
+        margin-bottom: 120px;
+    }
+    .pricing-title {
+        font-size: 2.25rem;
+        margin-bottom: 25px;
+    }
+    .pricing-item {
+        width: 280px;
+    }
+    .pricing-item__img {
+        height: 240px;
+        margin-bottom: 0px;
+    }
+    .pricing-item__title {
+        font-size: 1.4rem;
+    }
+    .pricing-item__paragraph {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .btn--buy {
+        width: 205px;
+        font-size: 1rem;
+        gap: 5px;
+    }
+    .price {
+        font-size: 1.5rem;
+    }
+    /* Contact */
+    .contact-flex {
+        margin-bottom: 178px;
+    }
+    .contact-img {
+        width: 310px;
+    }
+    .contact-content {
+        width: 535px;
+    }
+    .contact-content__title {
+        padding-top: 30px;
+        font-size: 2.25rem;
+        margin-bottom: 20px;
+    }
+    .contact-content__paragraph {
+        font-size: 1rem;
+        margin-bottom: 54px;
+    }
+    .form--input {
+        width: 323px;
+        height: 60px;
+        font-size: 0.8rem;
+        padding: 0 23px;
+        margin-right: 10px;
+    }
+    .btn--form  {
+        width: 193px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    /* Footer */
+    .footer {
+        padding-top: 22px;
+        padding-bottom: 35px;
+    }
+    .footer__logo {
+        width: 89px;
+    }
+    .footer-info {
+        gap: 30px;
+    }
+    .footer__item {
+        padding-top: 16px;
+        font-size: 1rem;
+    }
+}

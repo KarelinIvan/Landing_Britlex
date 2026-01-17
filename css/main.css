@@ -10,6 +10,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -65,9 +66,9 @@ button:hover {
     list-style: none;
 }
 .header__menu-link {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.5;
     color: var(--color-dark-grey-blue);
 }
 .btn {
@@ -75,12 +76,11 @@ button:hover {
     font-family: var(--font-family-poppins);
 }
 .btn--header {
-    max-width: 220px;
-    width: 100%;
+    width: 220px;
+    height: 70px;
     border: 2px solid rgba(38, 50, 56, 1);
-    padding: 15px 55px;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 1.5;
     color: var(--color-black);
 }
 /* Learning */
@@ -101,31 +101,29 @@ button:hover {
     margin-bottom: 40px;
 }
 .learning-content__title {
-    max-width: 386px;
-    width: 100%;
+    width: 386px;
     color: var(--color-black);
     font-family: var(--font-family-poppins);
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.25;
 }
 .learning-content__img  {
-    padding-top: 65px;
+    padding-top: 4rem;
 }
 .learning-content__paragraph {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 1.5;
     margin-bottom: 60px;
 }
 .btn--large {
-    max-width: 438px;
-    width: 100%;
+    width: 438px;
     padding: 30px 115px;
     color: var(--color-button);
     background-color: var(--color-black);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
-    line-height: 54px;
+    line-height: 1.5;
     border-radius: 15px;
 }
 .learning-img {
@@ -139,9 +137,9 @@ button:hover {
 }
 .skills__title {
     color: var(--color-black);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
     margin-bottom: 92px;
 }
 .skills-grid {
@@ -180,26 +178,26 @@ button:hover {
 }
 .skills__item-title {
     color: var(--color-dark-grey-blue);
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 2.6;
 }
 .skills__item-paragraph  {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     margin-bottom: 33px;
 }
 .btn--skills {
     max-width: 218px;
     max-height: 60px;
     width: 100%;
-    padding: 15px 50px;
+    padding: 15px 0;
     color: var(--color-button);
     background-color: var(--color-black);
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 1.5;
 }
 .skills__item--writing {
     grid-column: span 1;
@@ -238,19 +236,18 @@ button:hover {
     justify-content: space-between;
 }
 .about-content {
-    max-width: 635px;
-    width: 100%;
+    width: 635px;
 }
 .about-content__title {
     color: var(--color-black);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
     margin-bottom: 22px;
 }
 .about-content__paragraph {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
     margin-bottom: 40px;
 }
 .about-content__items {
@@ -262,17 +259,16 @@ button:hover {
 }
 .about-item__value {
     color: rgba(42, 50, 70, 1);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
 }
 .about-item__desc {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 .about-img {
-    max-width: 500px;
-    width: 100%;
+    width: 500px;
 }
 /* Pricing */
 .pricing {
@@ -281,9 +277,9 @@ button:hover {
 .pricing-title {
     text-align: center;
     color: var(--color-black);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
     margin-bottom: 60px;
 }
 .pricing-flex {
@@ -291,8 +287,7 @@ button:hover {
     justify-content: space-between;
 }
 .pricing-item {
-    max-width: 420px;
-    width: 100%;
+    width: 420px;
 }
 .pricing-item__img {
     height: 310px;
@@ -300,26 +295,25 @@ button:hover {
 }
 .pricing-item__title {
     color: var(--color-dark-grey-blue);
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 .pricing-item__paragraph {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
     height: 90px;
     overflow: auto;
     margin-bottom: 28px;
 }
 .btn--buy {
     width: 240px;
-    height: 45px;
     border-style: none;
     color: rgba(84, 98, 105, 1);
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -327,9 +321,9 @@ button:hover {
 }
 .price {
     color: rgba(38, 50, 56, 1);
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 1.5;
 }
 /* Contact */
 .contact {
@@ -345,23 +339,22 @@ button:hover {
     background: rgba(196, 196, 196, 1);
 }
 .contact-img {
-    max-width: 477px;
-    width: 100%;
+    width: 477px;
 }
 .contact-content {
-    max-width: 770px;
+    width: 770px;
 }
 .contact-content__title {
     padding-top: 30px;
     color: var(--color-black);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.5;
     margin-bottom: 35px;
 }
 .contact-content__paragraph {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
     margin-bottom: 54px;
 }
 .form--input {
@@ -371,9 +364,9 @@ button:hover {
     border-radius: 10px;
     font-family: var(--font-family-poppins);
     color: var(--color-grey);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     padding: 0 33px;
     margin-right: 10px;
 }
@@ -383,9 +376,9 @@ button:hover {
     border-radius: 10px;
     background: rgba(38, 50, 56, 1);
     color: rgba(255, 255, 255, 1);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.5;
 }
 /* Footer */
 .footer {
@@ -403,8 +396,8 @@ button:hover {
 .footer__item {
     padding-top: 25px;
     color: rgba(143, 149, 165, 1);
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 .footer__item:nth-child(1) {
     list-style: none;
