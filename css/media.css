@@ -89,5 +89,28 @@
     /* Pricing */
     .pricing-title {
         font-size: 2.25rem;
+        margin-bottom: 25px;
+    }
+    .pricing-item {
+        width: 280px;
+    }
+    .pricing-item__img {
+        height: 240px;
+        margin-bottom: 0px;
+    }
+    .pricing-item__title {
+        font-size: 1.4rem;
+    }
+    .pricing-item__paragraph {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .btn--buy {
+        width: 205px;
+        font-size: 1rem;
+        gap: 5px;
+    }
+    .price {
+        font-size: 1.5rem;
     }
 }

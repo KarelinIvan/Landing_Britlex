@@ -287,8 +287,7 @@ button:hover {
     justify-content: space-between;
 }
 .pricing-item {
-    max-width: 420px;
-    width: 100%;
+    width: 420px;
 }
 .pricing-item__img {
     height: 310px;
@@ -310,7 +309,6 @@ button:hover {
 }
 .btn--buy {
     width: 240px;
-    height: 45px;
     border-style: none;
     color: rgba(84, 98, 105, 1);
     font-size: 1.2rem;
