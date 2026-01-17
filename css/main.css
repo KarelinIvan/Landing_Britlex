@@ -68,7 +68,7 @@ button:hover {
 .header__menu-link {
     font-size: 1.25rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.5;
     color: var(--color-dark-grey-blue);
 }
 .btn {
@@ -80,7 +80,7 @@ button:hover {
     height: 70px;
     border: 2px solid rgba(38, 50, 56, 1);
     font-size: 1.5rem;
-    line-height: 36px;
+    line-height: 1.5;
     color: var(--color-black);
 }
 /* Learning */
@@ -101,31 +101,29 @@ button:hover {
     margin-bottom: 40px;
 }
 .learning-content__title {
-    max-width: 386px;
-    width: 100%;
+    width: 386px;
     color: var(--color-black);
     font-family: var(--font-family-poppins);
     font-size: 4rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.25;
 }
 .learning-content__img  {
-    padding-top: 65px;
+    padding-top: 4rem;
 }
 .learning-content__paragraph {
     font-size: 1.5rem;
-    line-height: 36px;
+    line-height: 1.5;
     margin-bottom: 60px;
 }
 .btn--large {
-    max-width: 438px;
-    width: 100%;
+    width: 438px;
     padding: 30px 115px;
     color: var(--color-button);
     background-color: var(--color-black);
     font-size: 2.25rem;
     font-weight: 400;
-    line-height: 54px;
+    line-height: 1.5;
     border-radius: 15px;
 }
 .learning-img {
@@ -141,7 +139,7 @@ button:hover {
     color: var(--color-black);
     font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
     margin-bottom: 92px;
 }
 .skills-grid {
@@ -182,12 +180,12 @@ button:hover {
     color: var(--color-dark-grey-blue);
     font-size: 1.9rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 2.6;
 }
 .skills__item-paragraph  {
     font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     margin-bottom: 33px;
 }
 .btn--skills {
@@ -199,7 +197,7 @@ button:hover {
     background-color: var(--color-black);
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 1.5;
 }
 .skills__item--writing {
     grid-column: span 1;
@@ -245,12 +243,12 @@ button:hover {
     color: var(--color-black);
     font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
     margin-bottom: 22px;
 }
 .about-content__paragraph {
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 1.5;
     margin-bottom: 40px;
 }
 .about-content__items {
@@ -264,11 +262,11 @@ button:hover {
     color: rgba(42, 50, 70, 1);
     font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
 }
 .about-item__desc {
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 1.5;
 }
 .about-img {
     max-width: 500px;
@@ -283,7 +281,7 @@ button:hover {
     color: var(--color-black);
     font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.6;
     margin-bottom: 60px;
 }
 .pricing-flex {
@@ -302,12 +300,12 @@ button:hover {
     color: var(--color-dark-grey-blue);
     font-size: 1.9rem;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 .pricing-item__paragraph {
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 1.5;
     height: 90px;
     overflow: auto;
     margin-bottom: 28px;
@@ -319,7 +317,7 @@ button:hover {
     color: rgba(84, 98, 105, 1);
     font-size: 1.2rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,7 +327,7 @@ button:hover {
     color: rgba(38, 50, 56, 1);
     font-size: 1.9rem;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 1.5;
 }
 /* Contact */
 .contact {
@@ -356,12 +354,12 @@ button:hover {
     color: var(--color-black);
     font-size: 3rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 1.5;
     margin-bottom: 35px;
 }
 .contact-content__paragraph {
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 1.5;
     margin-bottom: 54px;
 }
 .form--input {
@@ -373,7 +371,7 @@ button:hover {
     color: var(--color-grey);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     padding: 0 33px;
     margin-right: 10px;
 }
@@ -385,7 +383,7 @@ button:hover {
     color: rgba(255, 255, 255, 1);
     font-size: 1.25rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.5;
 }
 /* Footer */
 .footer {
@@ -404,7 +402,7 @@ button:hover {
     padding-top: 25px;
     color: rgba(143, 149, 165, 1);
     font-size: 1.5rem;
-    line-height: 36px;
+    line-height: 1.5;
 }
 .footer__item:nth-child(1) {
     list-style: none;
