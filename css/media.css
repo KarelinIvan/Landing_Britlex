@@ -87,6 +87,9 @@
         width: 345px;
     }
     /* Pricing */
+    .pricing {
+        margin-bottom: 120px;
+    }
     .pricing-title {
         font-size: 2.25rem;
         margin-bottom: 25px;
@@ -113,4 +116,33 @@
     .price {
         font-size: 1.5rem;
     }
+    /* Contact */
+    .contact-img {
+        width: 310px;
+    }
+    .contact-content {
+        width: 535px;
+    }
+    .contact-content__title {
+        padding-top: 30px;
+        font-size: 2.25rem;
+        margin-bottom: 20px;
+    }
+    .contact-content__paragraph {
+        font-size: 1rem;
+        margin-bottom: 54px;
+    }
+    .form--input {
+        width: 323px;
+        height: 60px;
+        font-size: 0.8rem;
+        padding: 0 23px;
+        margin-right: 10px;
+    }
+    .btn--form  {
+        width: 193px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    /* Footer */
 }

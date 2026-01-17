@@ -339,11 +339,10 @@ button:hover {
     background: rgba(196, 196, 196, 1);
 }
 .contact-img {
-    max-width: 477px;
-    width: 100%;
+    width: 477px;
 }
 .contact-content {
-    max-width: 770px;
+    width: 770px;
 }
 .contact-content__title {
     padding-top: 30px;
