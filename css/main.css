@@ -236,8 +236,7 @@ button:hover {
     justify-content: space-between;
 }
 .about-content {
-    max-width: 635px;
-    width: 100%;
+    width: 635px;
 }
 .about-content__title {
     color: var(--color-black);
@@ -269,8 +268,7 @@ button:hover {
     line-height: 1.5;
 }
 .about-img {
-    max-width: 500px;
-    width: 100%;
+    width: 500px;
 }
 /* Pricing */
 .pricing {
