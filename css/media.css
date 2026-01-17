@@ -117,6 +117,9 @@
         font-size: 1.5rem;
     }
     /* Contact */
+    .contact-flex {
+        margin-bottom: 178px;
+    }
     .contact-img {
         width: 310px;
     }
@@ -145,4 +148,18 @@
         font-size: 1rem;
     }
     /* Footer */
+    .footer {
+        padding-top: 22px;
+        padding-bottom: 35px;
+    }
+    .footer__logo {
+        width: 89px;
+    }
+    .footer-info {
+        gap: 30px;
+    }
+    .footer__item {
+        padding-top: 16px;
+        font-size: 1rem;
+    }
 }
