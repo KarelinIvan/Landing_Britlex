@@ -21,7 +21,7 @@
 					<a href="/" class="header-logo">
 						<img src="img/Britlex.svg" alt="Logo Britlex" class="header__logo-img"/>
 					</a>
-					<ul class="header-menu">
+					<ul class="header-menu" id="header-menu">
 						<li>
                             <a href="/" class="header__menu-link">Home</a>
                         </li>
@@ -41,9 +41,13 @@
 					<div class="header__auth">
 						<button type="button" class="btn btn--header">Let’s Talk</button>
 					</div>
-                    <div class="header-burger">
-                        <a href="#"><img src="img/burger.svg" alt="Dropdown Menu Button"></a>
-                    </div>
+
+                    <!-- Бургер иконка -->
+                    <button type="button" class="header__burger" aria-label="Open menu" id="header__burger">
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                    </button>
 				</nav>
 			</div>
 		</header>
@@ -215,5 +219,8 @@
                 </div>
             </div>
         </footer>
+        <script>
+
+        </script>
 	</body>
 </html>

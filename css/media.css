@@ -163,3 +163,19 @@
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 990px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* Header */
+    .header-menu {
+        display: none;
+    }
+    .header__auth {
+        display: none;
+    }
+    .header__burger {
+        display: flex;
+    }
+}

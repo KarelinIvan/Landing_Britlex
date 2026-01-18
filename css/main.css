@@ -83,6 +83,29 @@ button:hover {
     line-height: 1.5;
     color: var(--color-black);
 }
+.header__burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+    border-style: none;
+    background-color: unset;
+    height: 40px;
+    border-radius: 3px;
+}
+.header__burger-line {
+    width: 30px;
+    height: 3px;
+    background-color: rgba(57, 81, 94, 1);
+    border-radius: 1px;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.header__burger-line:nth-last-child(1) {
+    width: 21px;
+}
+
 /* Learning */
 .learning {
     margin-bottom: 45px;
