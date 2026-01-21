@@ -319,3 +319,127 @@
         font-size: 0.8rem;
     }
 }
+@media screen and (max-width: 765px) {
+    .container {
+        padding-left: calc(50% - 515px/2);
+        padding-right: calc(50% - 515px/2);
+    }
+    /* header */
+    .header {
+        padding-top: 40px;
+        margin-bottom: 0px;
+    }
+    /* learning */
+    .learning-flex {
+        flex-direction: column-reverse;
+    }
+    .learning-content {
+        text-align: center;
+    }
+    .learning-title-flex {
+        display: grid;
+        justify-content: center;
+    }
+    .learning-content__title {
+        width: 515px;
+        font-size: 2.1rem;
+    }
+    .learning-content__img {
+        display: none;
+    }
+    .btn--large {
+        width: 305px;
+        padding: 17px 0;
+        font-size: 1.1rem;
+    }
+    /* skills */
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+    .skills__item {
+        width: 240px;
+        height: 534px;
+        padding: 0px 19px 19px 19px;
+    }
+    .skills__img {
+        height:  150px;
+    } 
+    .skills__item-paragraph  {
+        height: 200px;
+    }
+    .skills__item--speaking {
+        grid-row: span 1;
+    }
+    .skills__item--listening {
+        grid-column: span 1;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "img"
+        "title"
+        "paragraph"
+        "btn";
+        max-height: 534px;
+    }
+    .btn--skills{
+        width: 200px;
+        font-size: 0.9rem;
+    }
+    .skills__item--writing .skills__img {
+    padding-left: 0;
+    }
+    .skills__item--listening .btn--skills {
+        margin-bottom: 15px;
+    }
+    /* about */
+    .about-flex {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .about-img {
+        width: 515px;
+    }
+    .about-content {
+        width: 515px;
+    }
+    /* pricing */
+    .pricing-flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pricing-item {
+        margin: 0 auto;
+        width: 420px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .pricing-item__title {
+        font-size: 1.5rem;
+    }
+    .pricing-item__paragraph {
+        margin-bottom: 0;
+    }
+    .btn--buy {
+        margin: 0 auto;
+        width: 205px;
+        height: 45px;
+    }
+    /* Contact */
+    .contact-flex {
+        width: 515px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .contact-img {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .contact-content {
+        margin: 0 auto;
+        width: 440px;
+    }
+        .contact-content__paragraph {
+        font-size: 1rem;
+    }
+}
