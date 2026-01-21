@@ -443,3 +443,149 @@
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 560px) {
+    .container {
+        padding-left: calc(50% - 300px/2);
+        padding-right: calc(50% - 300px/2);
+    }
+    /* learning */
+    .learning-content__title {
+        width: 300px;
+        font-size: 1.5rem;
+    }
+    .learning-content__paragraph {
+        font-size: 0.9rem;
+    }
+        .btn--large {
+        width: 289px;
+        padding: 18px 0;
+        font-size: 1rem;
+    }
+    /* skills */
+    .skills__title {
+        font-size: 1.5rem;
+    }
+    .skills-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-items: center;
+    }
+    .skills__item {
+        width: 290px;
+        height: 600px;
+        padding: 7px 16px 7px 16px;
+    }
+    .skills__item-title {
+        font-size: 1.1rem;
+    }
+    .btn--skills {
+        width: 178px;
+        font-size: 0.9rem;
+    }
+    .skills__item--writing {
+        max-height: 600px;
+    }
+    .skills__item--listening {
+        max-height: 600px;
+    }
+    .skills__item--reading {
+        max-height: 600px;
+    }
+    .skills__item-paragraph {
+        height: 265px;
+    }
+    .skills__item--listening .btn--skills {
+        margin-bottom: 30px;
+    }
+    /* about */
+    .about-content__title {
+        font-size: 1.5rem;
+    }
+    .about-content__paragraph {
+        font-size: 0.8rem;
+    }
+    .about-img {
+        width: 300px;
+    }
+    .about-content {
+        width: 300px;
+    }
+    .about-content__items {
+        flex-direction: column;
+    }
+    .about-item {
+        margin-bottom: 30px;
+    }
+    .about-item:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+    .about-item__value {
+        font-size: 1.5rem;
+    }
+    .pricing-title {
+        font-size: 1.5rem;
+    }
+    /* pricing */
+    .pricing-item {
+        width: 290px;
+    }
+    .pricing-item__title {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    .pricing-item__paragraph {
+        font-size: 0.8rem;
+    }
+    .btn--buy {
+        width: 170px;
+        height: 37px;
+    }
+    /* contact */
+    .contact-flex {
+        width: 300px;
+        margin-bottom: 60px;
+    }
+    .contact-img {
+        width: 260px;
+    }
+    .contact-content {
+        width: 300px;
+    }
+    .contact-content__title {
+        font-size: 1.5rem;
+    }
+    .contact-content__paragraph {
+        font-size: 0.8rem;
+    }
+    .contact-content__form {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        align-items: center;
+    }
+    .form--input {
+        width: 290px;
+        height: 50px;
+        border-radius: 1px;
+        font-size: 0.75rem;
+        padding: 0 20px;
+        margin-right: 0px;
+    }
+    .btn--form {
+        width: 290px;
+        height: 50px;
+        font-size: 0.8rem;
+        border-radius: 1px;
+    }
+    /* footer */
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-info {
+        gap: 22px;
+    }
+    .footer__item {
+        font-size: 0.6rem;
+    }
+}
